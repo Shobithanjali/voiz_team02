@@ -9,9 +9,15 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
+<<<<<<< HEAD
     <artifactId>demo1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>demo1</name>
+=======
+    <artifactId>voiz_team02</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>voiz_team02</name>
+>>>>>>> cd6b0807aa9d6b07597fae2c6e00f42116cf1387
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -45,6 +51,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+<<<<<<< HEAD
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
@@ -57,6 +64,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
         </dependency>
+=======
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+        <!--<dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>-->
+>>>>>>> cd6b0807aa9d6b07597fae2c6e00f42116cf1387
     </dependencies>
 
     <build>

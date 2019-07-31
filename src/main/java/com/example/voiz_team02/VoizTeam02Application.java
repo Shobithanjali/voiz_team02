@@ -1,13 +1,16 @@
-package com.example.demo1;
+package com.example.voiz_team02;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class Demo1Application {
+public class VoizTeam02Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Demo1Application.class, args);
+        SpringApplication.run(VoizTeam02Application.class, args);
     }
+
+
 
 }
